@@ -23,14 +23,6 @@ const headerItems = [
       icon:<FaVideo/>,
       href:"/home",
       iconName:"name"
-    },{
-      icon:<FaRegHeart/>,
-      href:"/home",
-      iconName:"name"
-    },{
-      icon:<AiFillMessage/>,
-      href:"/home",
-      iconName:"name"
     }
   ]
 
