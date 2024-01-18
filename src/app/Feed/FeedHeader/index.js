@@ -43,7 +43,7 @@ const headerItems = [
   },
 ];
 
-const index = ({props}) => {
+const Index = ({props}) => {
   const router = useRouter()
   const setUserLogout = () => {
     localStorage.removeItem("userToken")
@@ -92,4 +92,4 @@ const index = ({props}) => {
   );
 };
 
-export default index;
+export default Index;

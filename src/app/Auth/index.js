@@ -18,7 +18,7 @@ const schema = Yup.object().shape({
   password: Yup.string().required().min(7),
 });
 
-const index = () => {
+const Index = () => {
   const router  = useRouter();
   const formik = useFormik({
     initialValues: {
@@ -106,4 +106,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

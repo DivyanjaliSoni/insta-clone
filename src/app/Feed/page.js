@@ -5,7 +5,7 @@ import StorySection from "./StorySection";
 import PostSection from "./PostSection";
 import Sidebar from "./Sidebar";
 
-const index = () => {
+const Index = () => {
   return (
     <>
       <FeedHeader />
@@ -27,4 +27,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
