@@ -43,7 +43,7 @@ const Index = () => {
     <>
       <div className="w-full  h-screen border-4 flex items-center justify-center bg-[url('/images/login-page.jpg')] bg-center bg-contain bg-no-repeat opacity-55 relative"></div>
       <div className=" bg-red-50 opacity-60 w-full h-full absolute top-0"></div>
-      <div className="w-1/3 h-1/2 border-gray-500 absolute top-[25%] left-[35%] flex flex-col items-center justify-center shadow-lg ">
+      <div className="py-2 px-4 md:w-1/3 h-1/2 border-gray-500 absolute top-[25%] left-[7%] md:left-[35%] flex flex-col items-center justify-center shadow-lg ">
         <form onSubmit={handleSubmit} method="POST">
           <label htmlFor="username" className="text-gray-600 font-semibold">
             Username:
