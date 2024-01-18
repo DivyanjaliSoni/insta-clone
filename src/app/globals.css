@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    height: 100vh !important;
+    position: relative;
+}
+.overflow-x-scroll::-webkit-scrollbar {
+    display: none !important;
+}
+@media (min-width: 1536px){
+.container {
+    max-width: 1200px;
+}
+}
