@@ -90,6 +90,7 @@ const Index = () => {
           <Link href="/" className="text-pink-400 font-semibold">
             Forget password?
           </Link>
+          <input type="file"/>
         </div>
         <div className="mt-2  flex space-x-2">
           <span className="font-semibold text-gray-600">
